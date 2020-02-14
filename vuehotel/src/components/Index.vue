@@ -44,7 +44,7 @@
           </div>
         </div>
     </div>
-    <div class="row mobile__index">
+    <div class="row mobile">
       <div class="col-12">
           <div class="logo">
             <img src="images/icon/logo.3fafe707.svg" alt="" srcset="">
