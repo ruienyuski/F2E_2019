@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="col-lg-10 col-12 desktop row justify-content-center align-items-center home__item">
-        <div class="col-xl-2 col-12 info__block desktop">
+        <div class="col-xl-2 col-lg-12 col-12 info__block desktop">
           <div class="logo">
             <img src="images/icon/logo.3fafe707.svg" alt="" srcset="">
           </div>
@@ -33,30 +33,31 @@
             <div class="circle"  data-target="#carouselExampleIndicators" data-slide-to="3"></div>
           </div>
         </div>
-        <div class="col-xl-10 col-12 align-self-center">
+        <div class="col-xl-10 col-lg-12 col-12 align-self-center">
           <div class="gallery">
             <div class="relative" v-for="(item,key) in rooms" :key="key">
               <div class="img--active">
-                  <img :src="`/images/${room_img[key]}.png`" alt="">
+                  <img :src="`images/${room_img[key]}.png`" alt="">
               </div>
               <div @click="toroom(item)" class="img--active__text">{{ item.name }}</div>
             </div>
           </div>
         </div>
     </div>
-    <div class="row mobile">
+    <div class="row mobile mobile__index">
       <div class="col-12">
           <div class="logo">
             <img src="images/icon/logo.3fafe707.svg" alt="" srcset="">
           </div>
-          <div class="row ">
+          <div class="row justify-content-center">
             <div class="col-12 align-self-center">
-              <div class="row justify-content-center my-5">
-                <div class="relative" v-for="(item,key) in rooms" :key="key">
-                  <div class="img--active">
-                      <img :src="`/images/${room_img[key]}.png`" alt="">
+              <div class="row justify-content-start my-5">
+                <div class="col-6 mx-0 px-0  col-md-6" v-for="(item,key) in rooms" :key="key">
+                  <div class="  mobile__index__img relative" :style="[{ backgroundImage: 'url(' + 'images/'+room_img[key]+'.png'+ ')'}]" >
+                      <!-- <img :src="`images/${room_img[key]}.png`" alt=""> -->
+                      <a href="#" @click="toroom(item)" class="img--active__text">{{ item.name }}</a>
                   </div>
-                  <div @click="toroom(item)" class="img--active__text">{{ item.name }}</div>
+                  <!-- <div @click="toroom(item)" class="img--active__text">{{ item.name }}</div> -->
                 </div>
               </div>
             </div>

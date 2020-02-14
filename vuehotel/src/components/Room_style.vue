@@ -11,14 +11,14 @@
             </div>
             <div style="position: absolute; top:15%; left:28%;" class="desktop">
                 <router-link :to="`/`" class="text-left pl-3" >
-                    <img :src="`/images/icon/to_left.svg`">
-                    <span class="sm__font">查看其它房型</span>
+                    <img :src="`images/icon/to_left.svg`">
+                    <span class="ml-3 sm__font">查看其它房型</span>
                 </router-link>
             </div>
               <div class="mt-5 text-center mobile ">
                   <router-link :to="`/`" >
-                      <img :src="`/images/icon/to_left.svg`">
-                      <span class="sm__font">查看其它房型</span>
+                      <img :src="`images/icon/to_left.svg`">
+                      <span class="ml-1 sm__font">查看其它房型</span>
                   </router-link>
               </div>                        
             <div class="send__block">
@@ -59,50 +59,50 @@
               <div class="row">
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities.Breakfast}">
-                    <span><img class="left__icon" :src="`/images/icon/Breakfast.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                    <span><img class="left__icon" :src="`images/icon/Breakfast.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">早餐</div>
                 </div>
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Mini-Bar']}">
-                    <span><img class="left__icon" :src="`/images/icon/Mini-Bar.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-cancel.svg`" alt=""></span>
+                    <span><img class="left__icon" :src="`images/icon/Mini-Bar.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-cancel.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">Mini Bar</div>
                 </div>
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Room-Service']}">
-                    <span><img class="left__icon" :src="`/images/icon/Room-Service.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-cancel.svg`" alt=""></span>
+                    <span><img class="left__icon" :src="`images/icon/Room-Service.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-cancel.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">Room Service</div>
                 </div>
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Wi-Fi']}">
-                    <span><img class="left__icon" :src="`/images/icon/Wi-Fi.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                    <span><img class="left__icon" :src="`images/icon/Wi-Fi.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">Wifi</div>
                 </div>
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Child-Friendly']}">
-                    <span><img class="left__icon" :src="`/images/icon/Child-Friendly.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-cancel.svg`" alt=""></span>
+                    <span><img class="left__icon" :src="`images/icon/Child-Friendly.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-cancel.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">適合兒童</div>
                 </div>
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities.Television}">
-                    <span><img class="left__icon" :src="`/images/icon/Television.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                    <span><img class="left__icon" :src="`images/icon/Television.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">電話</div>
                 </div>
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Great-View']}">
-                    <span><img class="left__icon" :src="`/images/icon/Great-View.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-cancel.svg`" alt=""></span>
+                    <span><img class="left__icon" :src="`images/icon/Great-View.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-cancel.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">漂亮的視野</div>
                 </div>
@@ -110,36 +110,36 @@
               <div class="row">
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities.Refrigerator}">
-                    <span><img  class="left__icon" :src="`/images/icon/Refrigerator.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                    <span><img  class="left__icon" :src="`images/icon/Refrigerator.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">冰箱</div>
                 </div>
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities.Sofa}">
-                    <span><img  class="left__icon" :src="`/images/icon/Sofa.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-cancel.svg`" alt=""></span>
+                    <span><img  class="left__icon" :src="`images/icon/Sofa.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-cancel.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">沙發</div>
                 </div>
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Pet-Friendly']}">
-                    <span><img  class="left__icon" :src="`/images/icon/Pet-Friendly.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                    <span><img  class="left__icon" :src="`images/icon/Pet-Friendly.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">攜帶寵物</div>
                 </div>
                 <div class="mx-3 my-2">
                   <div class="icon__block Smoke-Free" :class="{icon__opacity: !roomInfo.amenities['Smoke-Free']}">
-                    <span><img  class="left__icon" :src="`/images/icon/Smoke-Free.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                    <span><img  class="left__icon" :src="`images/icon/Smoke-Free.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">全面禁菸</div>
                 </div>
                 <div class="mx-3 my-2">
                   <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Air-Conditioner']}">
-                    <span><img  class="left__icon" :src="`/images/icon/Air-Conditioner.svg`" alt=""></span>
-                    <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                    <span><img  class="left__icon" :src="`images/icon/Air-Conditioner.svg`" alt=""></span>
+                    <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                   </div>
                   <div class="text-center text-wrap" style="width: 4rem; font-size:10px">空調</div>
                 </div>
@@ -148,16 +148,16 @@
             </div>
 
             <h5 class="col-11 mb-3">空房狀態查詢</h5>
-            <div class="col-11 mb-3">
-              <div class="date">
-                <date-picker v-model="time3" v-on:change="inputdate" valueType="format" :range="range" inline></date-picker>
-                       
-                <!-- <input id="daterangepicker1" type="hidden">
-                <div id="daterangepicker1-container" class="embedded-daterangepicker"></div> -->
-              </div>
-            </div>
-            <div class="col-11">
-              <a href="#" @click.prevent="reSelect()">清除預約</a>
+            <div class="row col-11">
+              <a href="#" class="btn btn-success" @click.prevent="reSelect()">清除預約</a>
+              <a href="#" class="btn btn-primary btn-lg mobile ml-auto" data-toggle="modal" data-target="#exampleModal">Booking now</a> 
+            </div>            
+            <div class="col-11 mt-3">
+              <date-picker v-model="time3" v-on:change="inputdate" valueType="format" :range="range" inline></date-picker>
+              <!-- <div class="date">
+                <input id="daterangepicker1" type="hidden">
+                <div id="daterangepicker1-container" class="embedded-daterangepicker"></div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -226,7 +226,7 @@
             <div class="col-xl-8 px-4 text-primary pb-3">
               <div class="row p-2">
                 <div class="col-12">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size:4rem">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
@@ -241,50 +241,50 @@
                   <div class="row">
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities.Breakfast}">
-                        <span><img class="left__icon" :src="`/images/icon/Breakfast.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                        <span><img class="left__icon" :src="`images/icon/Breakfast.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">早餐</div>
                     </div>
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Mini-Bar']}">
-                        <span><img class="left__icon" :src="`/images/icon/Mini-Bar.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-cancel.svg`" alt=""></span>
+                        <span><img class="left__icon" :src="`images/icon/Mini-Bar.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-cancel.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">Mini Bar</div>
                     </div>
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Room-Service']}">
-                        <span><img class="left__icon" :src="`/images/icon/Room-Service.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-cancel.svg`" alt=""></span>
+                        <span><img class="left__icon" :src="`images/icon/Room-Service.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-cancel.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">Room Service</div>
                     </div>
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Wi-Fi']}">
-                        <span><img class="left__icon" :src="`/images/icon/Wi-Fi.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                        <span><img class="left__icon" :src="`images/icon/Wi-Fi.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">Wifi</div>
                     </div>
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Child-Friendly']}">
-                        <span><img class="left__icon" :src="`/images/icon/Child-Friendly.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-cancel.svg`" alt=""></span>
+                        <span><img class="left__icon" :src="`images/icon/Child-Friendly.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-cancel.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">適合兒童</div>
                     </div>
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities.Television}">
-                        <span><img class="left__icon" :src="`/images/icon/Television.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                        <span><img class="left__icon" :src="`images/icon/Television.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">電話</div>
                     </div>
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Great-View']}">
-                        <span><img class="left__icon" :src="`/images/icon/Great-View.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-cancel.svg`" alt=""></span>
+                        <span><img class="left__icon" :src="`images/icon/Great-View.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-cancel.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">漂亮的視野</div>
                     </div>
@@ -292,36 +292,36 @@
                   <div class="row">
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities.Refrigerator}">
-                        <span><img  class="left__icon" :src="`/images/icon/Refrigerator.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                        <span><img  class="left__icon" :src="`images/icon/Refrigerator.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">冰箱</div>
                     </div>
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities.Sofa}">
-                        <span><img  class="left__icon" :src="`/images/icon/Sofa.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-cancel.svg`" alt=""></span>
+                        <span><img  class="left__icon" :src="`images/icon/Sofa.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-cancel.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">沙發</div>
                     </div>
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Pet-Friendly']}">
-                        <span><img  class="left__icon" :src="`/images/icon/Pet-Friendly.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                        <span><img  class="left__icon" :src="`images/icon/Pet-Friendly.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">攜帶寵物</div>
                     </div>
                     <div class="mx-3 my-2">
                       <div class="icon__block Smoke-Free" :class="{icon__opacity: !roomInfo.amenities['Smoke-Free']}">
-                        <span><img  class="left__icon" :src="`/images/icon/Smoke-Free.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                        <span><img  class="left__icon" :src="`images/icon/Smoke-Free.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">全面禁菸</div>
                     </div>
                     <div class="mx-3 my-2">
                       <div class="icon__block" :class="{icon__opacity: !roomInfo.amenities['Air-Conditioner']}">
-                        <span><img  class="left__icon" :src="`/images/icon/Air-Conditioner.svg`" alt=""></span>
-                        <span><img class="right__icon" :src="`/images/icon/icons8-ok.svg`" alt=""></span>
+                        <span><img  class="left__icon" :src="`images/icon/Air-Conditioner.svg`" alt=""></span>
+                        <span><img class="right__icon" :src="`images/icon/icons8-ok.svg`" alt=""></span>
                       </div>
                       <div class="text-center text-wrap" style="width: 4rem; font-size:10px">空調</div>
                     </div>
@@ -340,25 +340,25 @@
               <div class="row col-10 justify-content-center">
                 <div class="block__process">
                   <div class="block__process__title">
-                    <img :src="`/images/icon/form.svg`" alt="">
+                    <img :src="`images/icon/form.svg`" alt="">
                   </div>
                   <div class="block__process__content">送出線上預約單</div>
                 </div>
                 <div class="col-1">
-                  <img :src="`/images/icon/to_right.svg`">
+                  <img :src="`images/icon/to_right.svg`">
                 </div>
                 <div class="block__process">
                   <div class="block__process__title">
-                    <img :src="`/images/icon/icons8-search_chat.svg`" alt="">
+                    <img :src="`images/icon/icons8-search_chat.svg`" alt="">
                   </div>
                   <div class="block__process__content">系統立即回覆是否預訂成功 並以簡訊發送訂房通知 (若未收到簡訊請來電確認)</div>
                 </div>
                 <div class="col-1">
-                  <img :src="`/images/icon/to_right.svg`">
+                  <img :src="`images/icon/to_right.svg`">
                 </div>
                 <div class="block__process">
                   <div class="block__process__title">
-                    <img :src="`/images/icon/pay.svg`" alt="">
+                    <img :src="`images/icon/pay.svg`" alt="">
                   </div>
                   <div class="block__process__content">入住當日憑訂房通知 以現金或刷卡付款即可 (僅接受VISA.JCB.銀聯卡)</div>
                 </div>
@@ -383,7 +383,7 @@
               <div class="col-10">
                 <div class="row justify-content-center">
                   <div class="col-2 row justify-content-center align-items-center" style="background: url(@/assets/static/icon/paper.svg) center no-repeat;width: 124px;height: 157px;">
-                  <img :src="`/images/icon/ok.svg`" alt="">
+                  <img :src="`images/icon/ok.svg`" alt="">
                   </div>
                   <div class="col-12 modal__alert text-white font-weight-bold text-center my-5">預約成功</div>
                   <div class="text-white text-center h4 col-12">請留意簡訊發送訂房通知，入住當日務必出示此訂房通知，</div>
@@ -408,7 +408,7 @@
               <div class="col-10">
                 <div class="row justify-content-center">
                   <div class="col-2 row justify-content-center align-items-center" style="background: url(@/assets/static/icon/paper.svg) center no-repeat;width: 124px;height: 157px;">
-                  <img :src="`/images/icon/cancel.svg`" class="mt-2" width="37px" height="37px" alt="">
+                  <img :src="`images/icon/cancel.svg`" class="mt-2" width="37px" height="37px" alt="">
                   </div>
                   <div class="col-12 modal__alert text-white font-weight-bold text-center my-5">預約失敗</div>
                   <div class="text-white text-center h4 col-12">哎呀！晚了一步！您預約的日期已經被預約走了，</div>
