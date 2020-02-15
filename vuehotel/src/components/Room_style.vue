@@ -21,7 +21,7 @@
                       <span class="ml-1 sm__font">查看其它房型</span>
                   </router-link>
               </div>                        
-            <div class="send__block">
+            <div class="send__block desktop">
                 <span class="row justify-content-center">
                   <h2 class="xl__font pr-3"><span>$</span> {{roomInfo.normalDayPrice}}</h2>
                   <span class="mt-2 m__font">/ 1晚</span>                
@@ -33,7 +33,20 @@
                   <div class="circle" data-target="#carouselExampleIndicators" data-slide-to="2"></div>
                 </div>               
             </div>
-
+            <div class="mobile">
+                <span class="row justify-content-center mt-3">
+                  <h2 class="xl__font pr-3"><span>$</span> {{roomInfo.normalDayPrice}}</h2>
+                  <span class="mt-2 m__font">/ 1晚</span>                
+                </span>
+                <div class="row justify-content-center my-2">
+                   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">Booking now</button>                  
+                </div>
+                <div class="switch__circle circle__primarycolor">
+                  <div class="circle active" data-target="#carouselExampleIndicators" data-slide-to="0"></div>
+                  <div class="circle" data-target="#carouselExampleIndicators" data-slide-to="1"></div>
+                  <div class="circle" data-target="#carouselExampleIndicators" data-slide-to="2"></div>
+                </div>               
+            </div>
         </div>
         <div class="col-xl-7 col-12 block__right ">
           <div class="row justify-content-center">
@@ -216,7 +229,7 @@
                       <div class="text-warning">{{warningtext}}</div>
                       <hr class="bg-secondary">
                       <div class="text-right text-white">總計</div>
-                      <div class="text-right text-white l__font">{{roomInfo.normalDayPrice}}</div>
+                      <div class="text-right text-white l__font"><span>$</span>{{roomInfo.normalDayPrice}}</div>
                       <button type="submit" class="btn btn-outline-light btn-block sm__font ">確認送出</button>
                   </form>				
                   <p class="text-secondary">此預約系統僅預約功能，並不會對您進行收費</p>
@@ -382,7 +395,7 @@
                 </div>
               <div class="col-10">
                 <div class="row justify-content-center">
-                  <div class="col-2 row justify-content-center align-items-center" style="background: url(@/assets/static/icon/paper.svg) center no-repeat;width: 124px;height: 157px;">
+                  <div class="col-lg-2 col-12 row justify-content-center align-items-center" style="background: url(images/icon/paper.svg) center no-repeat;width: 124px;height: 157px;">
                   <img :src="`images/icon/ok.svg`" alt="">
                   </div>
                   <div class="col-12 modal__alert text-white font-weight-bold text-center my-5">預約成功</div>
@@ -407,7 +420,7 @@
                 </div>
               <div class="col-10">
                 <div class="row justify-content-center">
-                  <div class="col-2 row justify-content-center align-items-center" style="background: url(@/assets/static/icon/paper.svg) center no-repeat;width: 124px;height: 157px;">
+                  <div class="col-lg-2 col-12 row justify-content-center align-items-center" style="background: url(images/icon/paper.svg) center no-repeat;width: 124px;height: 157px;">
                   <img :src="`images/icon/cancel.svg`" class="mt-2" width="37px" height="37px" alt="">
                   </div>
                   <div class="col-12 modal__alert text-white font-weight-bold text-center my-5">預約失敗</div>
